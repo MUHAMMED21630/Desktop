@@ -1,5 +1,209 @@
 <H1>HTML</H1>
 
+
+<li> bir yapı oluştururken içine birden fazla ekstra yapı koya biliriz !kurallara uygun şekilde kendi yapınızı'da oluştura birirsiniz </li>
+
+<ul>
+    <li><img  içine class id eki koyulabilir></li>
+    <li>aynı şey <a href=""></a>içinde geçerlidir</li>
+    <li>aynı şey <div class="" id="" data-sl=""></div> içinde geçerlidir</li>
+</ul>
+
+<ul>
+    <li><img class="" src="" alt=""></li>
+    <li><a id="iki-kelime-boşluk-olamaz" css kuralarına göre class="biirinci-sınıf ikinci-sınıf"  html kuralarına göre  class="birincisınıf ikincisınıf" kafama göre verdiğim bir özellik data-id="" href=""></a></li>
+    <li><div class="" id="tekbilgi" data-selctioun="">  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- strong -> bold inline elemend koyu yazılar oluşturur
+ 
+em ->italic 
+
+div -> yazıları tam bir blok içine alıyor (blok kutu) oluşturuyor
+
+ne zaman kullanacam? beli kutulları belli yapıları bir araya getirmek için kullanılır
+
+
+
+span -> hayali bir kutu oluşturuyor ve tam olağan kapliyor (şefaf kutu) içine style alıp onun içinde'de color yazıp renklendire biliriz
+
+ne zaman kullanacam?  
+
+sadece bir yerde bir özellik vermem gerkiyor ve başka özelliklerin'de değişmesini istemediğim zaman
+
+br ->bir alt satıra geçmek için kullanılır
+
+hr -> çizgi çekmek için___________________________________________________
+
+p -> yazılar bunun dışında yazılırsa mantıksız olur alakasız olur
+
+-->
+<p>
+lorem<strong> ipsum dolor.</strong> sit <em>amet consectetur</em>  adipisicing elit. <a href="#">cupidiatate, ullam!</a>Distinctio, aut.
+
+<p>span:
+Lorem ipsum dolor <strong>sit amet consectetur </strong>
+<span style="color: red;">adipisicing elit. </span>Laborum, velit.
+
+</p>
+
+<p>div:
+   Lorem ipsum dolor 
+     <br>
+      sit amet consectetur, adipisicing elit. Ducimus, exercitationem.
+   
+</p>
+
+<p>
+
+   <strong>
+      <em>Lorem ipsum dolor sit.</em>
+   </strong>
+ amet consectetur adipisicing elit. Fugiat, nemo.
+</p>
+
+
+
+
+<hr>
+
+<div>
+   <h2><a href="#">BLOK ELEMENT</a></h2>
+</p>
+
+
+ <h3>linklerle çalışmak</h3>
+<!-- 
+-başka web sitesine git 
+-başka bir sayfaya git
+-aynı sayıfa içinde bir yere 
+-mail at -> mailto:
+-telefon et
+a= herf 
+<br> ->linklerin bir alt satıra geçmek için kullanılır
+target="_blank" ->kendi sayfanızdan çıkmadan başka bir sayıfaya geçmek için-->
+
+
+
+
+<ul>
+      <li>
+         <a href="https://Kodluyoruz.org" target="_blank">
+            Kodluyoruz - sayfasına gidilecek
+         </a>         
+   </li>
+   
+   
+   <li>
+      <a href="iletisim.html">
+         iletisim sayfasına git
+      </a>
+   
+   
+   </li>
+   
+       <li> 
+         <a href="#footer">
+            en alt kısıma git
+         </a>
+   
+   
+      </li>
+   
+      <li>
+       <a href="mailto:info@kodluyoruz.org">
+         Kodluyoruz a mail at
+       </a>
+   
+   
+      </li>
+      
+   
+   <li>
+      
+      <a href="tel:905448877551">
+         telefon aç
+      </a>
+      
+      
+      </li>
+</ul>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>görsellerle çalışmak</h2>
+
+
+
+
+
+
+
+<!-- img -->
+
+<a href="https://picsum.photos/" target="_blank">
+   <img src="img/1.jpg.jpg" alt="deri kitap kapağı">
+</a>
+
+
+<img src ="https://news-cdn.softpedia.com/images/news2/hands-on-with-ubuntu-s-new-minimal-installation-feature-in-ubuntu-18-04-lts-519994-3.jpg"width="300"  height="400" alt="kırmızı bir bilgiseyar görselli"/>
+
+
+
+<img src="https://cwsmgmt.corsair.com/pdp/k70-rgb-mk2/img/interest-keyboard-front.png"width="300" alt="ışklı interest-keyboard-front"> /> 
+
+
+
+<img src="https://fastly.picsum.photos/id/948/200/300.jpg?hmac=P3pbS5OFe3xlh-_nxsMU3WRWDS5lXF_rBKQZIL_7wPo" alt="gökdelen">
+
+
+
+
+
+
+
+
 <H2>EMMET / ZEN CODİNG</H2>
 <!-- 
 ETİKET İSİMLERİNİ DİREKT VEREBİLİYORUZ
@@ -14,22 +218,27 @@ LOREM->???
 -->
 
 
-<!-- H1+P+p+H2+P+P+P+P -> UZUN YOL --> yapmaK İÇİN SONDAKİ HARFİ SİL TEKRAR YAZ EMMET İÇİN
+<!-- <h4>H1+P+p+H2+P+P+P+P -> UZUN YOL yapmaK İÇİN SONDAKİ HARFİ SİL TEKRAR YAZ EMMET İÇİn</h4>
 
-<!-- H1+P+p+H2+P+P+P+P -> H1+P*2+H2+P*4 --> KISAYOL *(ÇARP)
+H1+P+p+H2+P+P+P+P -> H1+P*2+H2+P*4 KISAYOL *(ÇARP)
 
-<!-- ul>li*3 -->KISAYOL
+ul>li*3KISAYOL
 
- <!-- ul>li*3^p*3+h3 -->
+ ul>li*3^p*3+h3
 
- <!-- UL>Lİ*3>LOREM1^P*2>LOREM4+H3>LOREM1 --hatalı--  -->
-<!-- ul>li*3>lorem1^^p*2>lorem4^h3>lorem1 --düzgün--  -->
-<!-- #id ve . class özelliği -->
-<h3 class="deneme">Lorem, ipsum dolor.</h3> <!--h3.deneme>lorem1-->
+ UL>Lİ*3>LOREM1^P*2>LOREM4+H3>LOREM1 --hatalı-- 
 
-<h3 id="idolsun">Lorem.</h3>   <!--  h3#idolsun>lorem1 -->
+ ul>li*3>lorem1^^p*2>lorem4^h3>lorem1 --düzgün-- 
 
- <h3 class="deneme" id="idolsun">Lorem.</h3> <!--h3.deneme#idolsun>lorem1 -->
+ #id ve . class özelliği
+ -->
+
+
+<!-- <h3 class="deneme">Lorem, ipsum dolor.</h3> {h3.deneme>lorem1} 
+
+<h3 id="idolsun">Lorem.</h3>    h3#idolsun>lorem1 -->
+
+ <!-- <h3 class="deneme" id="idolsun">Lorem.</h3> h3.deneme#idolsun>lorem1 -->
 
  <!-- . class özelliği -->
  <!-- ul>.tepki  --> <ul>
@@ -37,8 +246,24 @@ LOREM->???
  </ul> 
 
 
- <!-- ul>.text-red*3 --> <ul>
+ ul>.text-red*3 <ul>
     <li class="text-red"></li>
     <li class="text-red"></li>
     <li class="text-red"></li>
  </ul>
+
+
+ <!-- ul>li^p 
+ ul>li*3 
+ ul.class>li.class2 
+ ul.class>li.class2*3 
+ ul#id1>li#id2 
+ul>li#id1+li#id2+li#id3 
+ul>li#idNo$*3
+<p>emmet ile daha kolay</p> -->
+
+<!-- <h2 id="footer"> 
+en alt kısma git</h2>
+<p>
+   Lorem ipsum dolor sit.
+</p> -->
