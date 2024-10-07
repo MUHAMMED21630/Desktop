@@ -1,0 +1,116 @@
+data = [
+    {
+        "queueId": "HEPSIBURADA-AppleU-4d945594-2a6f-47d5-809c-e10899b52738",
+        "agentName": "Serkan Sarı",
+        "queueName": "Ürün Uzmanı Serkan",
+        "queueDept": "Veri Depolama Ürünleri-Apple,Çevre Birimleri-Apple,Tablet-Apple,Bilgisayar Aksesuarları-Apple,Cep Telefonları-Apple,Cep Telefonu Aksesuarları-Apple,Bilgisayarlar-Apple,Ev Elektroniği Ürünleri-Apple",
+        "queueDeptVideo": "Apple Video Chat Departmanı",
+        "queueTag": "'hbomniserkan0','hbomniserkanapple0','hbomniserkanapple022'"
+    },
+    {
+        "queueId": "HEPSIBURADA-Telefo-27e6f7f5-cef2-4563-8a2a-8f2e860a286c",
+        "agentName": "Seren Damla Guzelderen",
+        "queueName": "Telefon Marka Uzmanı Seren",
+        "queueDept": "Cep Telefonları-vivo,Cep Telefonları-TCL,Cep Telefonları-HONOR,Cep Telefonları-Huawei,Cep Telefonları-Reeder,Cep Telefonları-Xiaomi,Cep Telefonu Aksesuarları-vivo,Cep Telefonu Aksesuarları-TCL,Cep Telefonu Aksesuarları-HONOR,Cep Telefonu Aksesuarları-Huawei,Cep Telefonu Aksesuarları-Reeder,Cep Telefonu Aksesuarları-Xiaomi",
+        "queueDeptVideo": "Telefon Markaları Video Chat Departmanı",
+        "queueTag": "hbomniseren1,hbomniserentelefon1,hbomniserentelefon122"
+    },
+    {
+        "queueId": "HEPSIBURADA-Telefo-f7d2bbc1-70a4-44b5-8bd9-394529884810",
+        "agentName": "Yunus Sadıkoğlu",
+        "queueName": "Telefon Marka Uzmanı Yunus",
+        "queueDept": "Cep Telefonları - Oppo,Cep Telefonları-Realme,Cep Telefonu Aksesuarları-Oppo,Cep Telefonu Aksesuarları-Realme",
+        "queueDeptVideo": "Telefon Markaları Video Chat Departmanı-2",
+        "queueTag": "hbomniyunus2,hbomniyunustelefon2,hbomniyunustelefon222"
+    },
+    {
+        "queueId": "HEPSIBURADA-TVUrun-f83a6234-be17-487f-bdba-c63eeb8cd13a",
+        "agentName": "Zehra Beler",
+        "queueName": "Ürün Uzmanı Zehra",
+        "queueDept": "Ses Görüntü Sistemleri-Nordmende,Ses Görüntü Sistemleri-Onvo,Ses Görüntü Sistemleri-Awox",
+        "queueDeptVideo": "TV Markaları Video Chat Departmanı",
+        "queueTag": "hbomnizehra3,hbomnizehratv3,hbomnizehratv322"
+    },
+    {
+        "queueId": "HEPSIBURADA-AppleU-2c1e5823-0a17-4665-92d5-78a2ba213acd",
+        "agentName": "Sinan Eyi",
+        "queueName": "Apple Ürün Uzmanı Sinan",
+        "queueDept": "Veri Depolama Ürünleri-Apple,Çevre Birimleri-Apple,Tablet-Apple,Bilgisayar Aksesuarları-Apple,Cep Telefonları-Apple,Cep Telefonu Aksesuarları-Apple,Bilgisayarlar-Apple,Ev Elektroniği Ürünleri-Apple",
+        "queueDeptVideo": "Apple Video Chat Departmanı",
+        "queueTag": "hbomnisinan4,hbomnisinanapple4,hbomnisinanapple422"
+    },
+    {
+        "queueId": "HEPSIBURADA-AppleU-9db25510-7d6c-401b-a546-46fa88480b08",
+        "agentName": "Sibel Öztürk",
+        "queueName": "Apple Ürün Uzmanı Sibel",
+        "queueDept": "Cep Telefonları-Apple,Cep Telefonu Aksesuarları-Apple",
+        "queueDeptVideo": "Apple Video Chat Departmanı-2",
+        "queueTag": "hbomnisibel6,hbomnisibelapple6,hbomnisibelapple622"
+    },
+    {
+        "queueId": "HEPSIBURADA-Samsun-a37e2cc1-bf34-4f73-9aaa-c2daba0c69eb",
+        "agentName": "Kemal Anıl Pehlivan",
+        "queueName": "Samsung Ürün Uzmanı Kemal",
+        "queueDept": "Cep Telefonları-Samsung,Cep Telefonu Aksesuarları-Samsung",
+        "queueDeptVideo": "Samsung Video Chat Departmanı",
+        "queueTag": "hbomnikemal7,hbomnikemalsamsung7,hbomnikemalsamsung722"
+    },
+    {
+        "queueId": "HEPSIBURADA-AppleU-9a32a7dd-6e5b-4f7c-a073-2aa7b95b1f1b",
+        "agentName": "Zeynep Kocagöz",
+        "queueName": "Apple Ürün Uzmanı Zeynep",
+        "queueDept": "Cep Telefonları-Apple,Cep Telefonu Aksesuarları-Apple",
+        "queueDeptVideo": "Apple Video Chat Departmanı-2",
+        "queueTag": "hbomnizeynep9,hbomnizeynepappple9,hbomnizeynepapple922"
+    },
+    {
+        "queueId": "HEPSIBURADA-Reeder-77f4a1a5-c467-4ed4-9404-732038993025",
+        "agentName": "İlknur Eyi",
+        "queueName": "Telefon Marka Uzmanı İlknur",
+        "queueDept": "Cep Telefonları-Realme,Cep Telefonları-Huawei,Cep Telefonu Aksesuarları-Huawei",
+        "queueDeptVideo": "Reeder Video Chat Departmanı",
+        "queueTag": "hbomniilknur10,hbomniilknurreeder10,hbomniilknurreeder1022"
+    },
+    {
+        "queueId": "HEPSIBURADA-Xiaomi-9c1e3900-3e1e-4113-adf1-307318b6adfc",
+        "agentName": "Sercan Songur",
+        "queueName": "Telefon Marka Uzmanı Sercan",
+        "queueDept": "Cep Telefonları-Xiaomi,Cep Telefonu Aksesuarları-Xiaomi,Cep Telefonları-POCO",
+        "queueDeptVideo": "Xiamo-Poco Video Chat Departmanı",
+        "queueTag": "hbomnisercan13,hbomnisercanxiaomi-poco13,hbomnisercanxiaomi-poco1322"
+    },
+    {
+        "queueId": "HEPSIBURADA-Samsun-f4ce0f1c-3b31-4f3b-b82d-60d01537c61a",
+        "agentName": "Oğuz Ocakoğlu",
+        "queueName": "Samsung Ürün Uzmanı Oğuz",
+        "queueDept": "Cep Telefonları-Samsung,Cep Telefonu Aksesuarları-Samsung",
+        "queueDeptVideo": "Samsung Video Chat Departmanı",
+        "queueTag": "hbomnioguz14,hbomnioguzsamsung14,hbomnioguzsamsung1422"
+    },
+    {
+        "queueId": "HEPSIBURADA-Loreal-032a474f-c141-425f-8a9e-71512f25fd72",
+        "agentName": "Nihal Güve",
+        "queueName": "L’Oréal Türkiye Ürün Uzmanı Nihal",
+        "queueDept": "Kozmetik Kişisel Bakım Ürünleri-Loreal Paris,Kozmetik Kişisel Bakım Ürünleri-Elseve,Kozmetik Kişisel Bakım Ürünleri-Garnier Men,Kozmetik Kişisel Bakım Ürünleri-Garnier Ambre Solaire,Kozmetik Kişisel Bakım Ürünleri-Garnier,Kozmetik Kişisel Bakım Ürünleri-L'Oreal Paris Men Expert,Kozmetik Kişisel Bakım Ürünleri-Studio Line,Kozmetik Kişisel Bakım Ürünleri-Maybelline,Kozmetik Kişisel Bakım Ürünleri-Botanicals Fresh Care,Kozmetik Kişisel Bakım Ürünleri-İpek",
+        "queueDeptVideo": "Loreal Paris Video Chat Departmanı",
+        "queueTag": "hbomninihal11,hbomninihalloreal11,hbomninihalloreal1122"
+    },
+    {
+        "queueId": "HEPSIBURADA-Vestel-f1956c77-24b6-44ab-9d42-d7099cb8223e",
+        "agentName": "Tuğba Ateş",
+        "queueName": "Vestel Ürün Uzmanı ",
+        "queueDept": "Beyaz Esya Mutfak Ürünleri-RegalEv Elektroniği Ürünleri-Regal,Ses Görüntü Sistemleri-Regal,Beyaz eşya mutfak ürünleri-Vestel,Ev Elektroniği Ürünleri-Vestel,Ev Elektroniği Ürünleri-Toshiba,Ses Görüntü Sistemleri-Toshiba,Beyaz Esya Mutfak Ürünleri-Daewoo,Ev Elektroniği Ürünleri-Daewoo,Beyaz eşya mutfak ürünleri-Vestfrost,Ev Elektroniği Ürünleri-Vestfrost",
+        "queueDeptVideo": "Vestel Video Chat Departmanı",
+        "queueTag": "hbomnitugba8,hbomnitugbavestel8,hbomnituhbavestel822"
+    },
+    {
+        "queueId": "HEPSIBURADA-Lezzet-15e96e33-1490-45f4-9878-39c255498a80",
+        "agentName": "Duygu Koçak",
+        "queueName": "Lezzetarayanlara Ürün Uzmanı Duygu",
+        "queueDept": "Supermarket-Gündoğdu,Supermarket-Ofçay,Supermarket-Arnetti,Supermarket-Fümeci Smokehouse,Supermarket-Haki,Supermarket-Koop Süt,Supermarket-Girne,Supermarket-Kopuz,Supermarket-Şems Zeytin,Supermarket-ŞEMS,Supermarket-Canpetek,Supermarket-Ahsaf,Supermarket-Ahsaf,Supermarket-Apikoğlu",
+        "queueDeptVideo": "Supermarket Video Chat Departmanı",
+        "queueTag": "hbomniduygu15,hbomniduygusupermarket15,hbomniduygusupermarket1522"
+    }
+     
+    
+   ]

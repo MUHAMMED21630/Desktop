@@ -1,0 +1,527 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.animate, #zendeskCustomFormContent .zendeskCustomForm .center .option #videoChatOmni::before, #zendeskCustomFormContent .zendeskCustomForm .center .option #liveChatOmni::before, #zendeskCustomFormContent .zendeskCustomForm .center .option div {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/*CustomBadge*/
+#ZendeskButton {
+  display: none;
+}
+
+#ZendeskButton .badge {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  position: fixed;
+  width: 164px;
+  height: 164px;
+  bottom: 20px;
+  right: 20px;
+  /*live*/
+  z-index: 999999;
+  /*live*/
+}
+
+#ZendeskButton .badge p {
+  margin: 0;
+}
+
+#ZendeskButton .badge .badgeInner {
+  position: absolute;
+}
+
+#ZendeskButton .badge .badgeInner figure {
+  z-index: 0;
+  margin: 0;
+  border-radius: 12px;
+}
+
+#ZendeskButton .badge .badgeInner figure img {
+  border-radius: 8px;
+  width: 100%;
+}
+
+#ZendeskButton .badge .badgeInner.visible {
+  display: none !important;
+}
+
+#ZendeskButton .badge .closeIcon {
+  z-index: 1;
+  width: 24px;
+  height: 24px;
+  background-color: #000000de;
+  border-radius: 50%;
+  position: absolute;
+  /*live*/
+  right: -5px;
+  /*live*/
+  top: -5px;
+}
+
+#ZendeskButton .badge .closeIcon:after {
+  content: "X";
+  color: #fff;
+  font-weight: 300;
+  font-family: Arial, sans-serif;
+  position: absolute;
+  top: 3px;
+  left: 7px;
+}
+
+#ZendeskButton .badge .closeIcon.visible {
+  display: none !important;
+}
+
+#ZendeskButton .badge .badgeText {
+  z-index: 1;
+  width: 101px;
+  height: 32px;
+  position: absolute;
+  background: #ff6000;
+  border-radius: 8px;
+  bottom: 22px;
+  /*live*/
+  left: 50%;
+  margin-left: -50px;
+  /*live*/
+}
+
+#ZendeskButton .badge .badgeText.visible {
+  display: none;
+}
+
+#ZendeskButton .badge .badgeText p {
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  padding: 8px 0;
+}
+
+#ZendeskButton .badge .triggerText {
+  position: relative;
+  right: 165px;
+  top: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+#ZendeskButton .badge .triggerText.visible {
+  display: none;
+}
+
+#ZendeskButton .badge .triggerText .firstText {
+  display: none;
+  width: 77px;
+  height: 36px;
+  background: #6b83fa;
+  border-radius: 18px 18px 4px 18px;
+  margin-bottom: 7px;
+}
+
+#ZendeskButton .badge .triggerText .firstText.visible {
+  display: block;
+}
+
+#ZendeskButton .badge .triggerText .secondText {
+  display: none;
+  width: 164px;
+  height: 36px;
+  background: #6b83fa;
+  border-radius: 18px 18px 4px 18px;
+}
+
+#ZendeskButton .badge .triggerText .secondText.visible {
+  display: block;
+}
+
+#ZendeskButton .badge .triggerText p {
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 400;
+  text-align: center;
+  padding: 11px 0;
+}
+
+/*CustomBadge*/
+#zendeskCustomFormContent {
+  display: none;
+  z-index: 12;
+}
+
+#zendeskCustomFormContent .zendeskCustomForm {
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+  overflow: auto;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 342px;
+  height: 540px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1), 0px 1px 4px rgba(0, 0, 0, 0.04), 0px 6px 16px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1), 0px 1px 4px rgba(0, 0, 0, 0.04), 0px 6px 16px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+  padding: 15px;
+  /*live*/
+  z-index: 105;
+  /*live*/
+}
+
+#zendeskCustomFormContent .zendeskCustomForm::-webkit-scrollbar {
+  width: 5px;
+}
+
+#zendeskCustomFormContent .zendeskCustomForm::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+#zendeskCustomFormContent .zendeskCustomForm::-webkit-scrollbar-thumb {
+  background: #ff6000;
+  border-radius: 16px;
+}
+
+#zendeskCustomFormContent .zendeskCustomForm::-webkit-scrollbar-thumb:hover {
+  background: #ff6000;
+}
+
+#zendeskCustomFormContent .zendeskCustomForm .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#zendeskCustomFormContent .zendeskCustomForm .top figure {
+  /*live*/
+  margin: 0;
+  /*live*/
+}
+
+#zendeskCustomFormContent .zendeskCustomForm .top figure img {
+  /*live*/
+  display: inline;
+  /*live*/
+  border-radius: 4px;
+}
+
+#zendeskCustomFormContent .zendeskCustomForm .top figure span {
+  position: relative;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #8C8C8C;
+  padding-left: 10px;
+}
+
+#zendeskCustomFormContent .zendeskCustomForm .top figure span::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: #36B23E;
+  border: 1px solid white;
+  position: absolute;
+  border-radius: 50%;
+  left: -8px;
+  bottom: 0;
+}
+
+#zendeskCustomFormContent .zendeskCustomForm .center {
+  padding-top: 28px;
+}
+
+#zendeskCustomFormContent .zendeskCustomForm .center p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+  color: #212121;
+}
+
+#zendeskCustomFormContent .zendeskCustomForm .center .option {
+  margin-top: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#zendeskCustomFormContent .zendeskCustomForm .center .option #videoChatOmni::before {
+  content: "";
+  margin-right: 8px;
+  background-image: url("img/videoIcon.png");
+  width: 18px;
+  height: 11px;
+  display: block;
+  background-size: contain;
+}
+
+#zendeskCustomFormContent .zendeskCustomForm .center .option #videoChatOmni.inactive {
+  border: 2px solid #E5E5E5;
+  color: #E5E5E5;
+}
+
+#zendeskCustomFormContent .zendeskCustomForm .center .option #videoChatOmni.inactive::before {
+  background-image: url("img/videoIconP.png");
+}
+
+#zendeskCustomFormContent .zendeskCustomForm .center .option #liveChatOmni::before {
+  content: "";
+  margin-right: 8px;
+  background-image: url("img/chatIcon.png");
+  width: 18px;
+  height: 16px;
+  display: block;
+  background-size: contain;
+}
+
+#zendeskCustomFormContent .zendeskCustomForm .center .option div {
+  cursor: pointer;
+  /*live*/
+  width: 130px;
+  /*live*/
+  height: 48px;
+  border: 2px solid #E5E5E5;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#zendeskCustomFormContent .zendeskCustomForm .center .option div:hover {
+  border: 2px solid #FF6000;
+}
+
+#zendeskCustomFormContent .zendeskCustomForm .center .option div:hover#videoChatOmni::before {
+  background-image: url("img/videoIcon-h.png");
+}
+
+#zendeskCustomFormContent .zendeskCustomForm .center .option div:hover#liveChatOmni::before {
+  background-image: url("img/chatIcon-h.png");
+}
+
+#zendeskCustomFormContent .zendeskCustomForm .center .option div.inactive:hover#videoChatOmni::before {
+  background-image: url("img/videoIconP.png");
+}
+
+#zendeskCustomFormContent .zendeskCustomForm .center .optionForm #videoChatOmniForm {
+  display: none;
+}
+
+#zendeskCustomFormContent .zendeskCustomForm .center .optionForm .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 20px 0;
+}
+
+#zendeskCustomFormContent .zendeskCustomForm .center .optionForm .info figure {
+  /*live*/
+  margin: 0;
+  width: 40%;
+  margin-right: 10px;
+  /*live*/
+}
+
+#zendeskCustomFormContent .zendeskCustomForm .center .optionForm .formContent div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#zendeskCustomFormContent .zendeskCustomForm .center .optionForm .formContent label {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #212121;
+  margin: 8px 0;
+}
+
+#zendeskCustomFormContent .zendeskCustomForm .center .optionForm .formContent label.v2 {
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #212121;
+}
+
+#zendeskCustomFormContent .zendeskCustomForm .center .optionForm .formContent input, #zendeskCustomFormContent .zendeskCustomForm .center .optionForm .formContent textarea {
+  height: 48px;
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #DADADA;
+  border-radius: 8px;
+}
+
+#zendeskCustomFormContent .zendeskCustomForm .center .optionForm .formContent textarea {
+  resize: none;
+  height: 90px;
+}
+
+#zendeskCustomFormContent .zendeskCustomForm .center .optionForm .formContent .zendeskDropdown {
+  width: 100%;
+}
+
+#zendeskCustomFormContent .zendeskCustomForm .center .optionForm .formContent .zendeskDropdown select {
+  width: 100%;
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #DADADA;
+  border-radius: 8px;
+}
+
+#zendeskCustomFormContent .zendeskCustomForm .center .optionForm .formContent #startMeetingChat, #zendeskCustomFormContent .zendeskCustomForm .center .optionForm .formContent #startMeetingVideo {
+  width: 100%;
+  height: 48px;
+  margin-top: 36px;
+  background: #FF6000;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+#omniVideoChatIframeContent {
+  display: none;
+  right: 380px;
+  bottom: 16px;
+  z-index: 110;
+  position: fixed;
+  width: 342px;
+  height: 540px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1), 0px 1px 4px rgba(0, 0, 0, 0.04), 0px 6px 16px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1), 0px 1px 4px rgba(0, 0, 0, 0.04), 0px 6px 16px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+  padding: 15px;
+}
+
+#omniVideoChatIframeContent #omniZendeskvideoIframe, #omniVideoChatIframeContent iframe {
+  width: 100%;
+  height: 100%;
+}
+
+#omniVideoChatIframeContent #omniZendeskvideoMin {
+  position: absolute;
+  right: -15px;
+}
+
+#omniZendeskvideoBadge {
+  display: none;
+  width: 169.788px;
+  height: 45.98px;
+  background: #6b82fa;
+  color: white;
+  font-weight: bold;
+  border-radius: 15984px;
+  text-align: center;
+  position: fixed;
+  bottom: 14px;
+  right: 200px;
+  z-index: 100;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#omniZendeskvideoBadge.addOpacity {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+#omniZendeskvideoBadge #videoBadgeBtn {
+  font-size: 16px;
+  font-family: system-ui;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#omniZendeskvideoBadge #videoBadgeBtn div img {
+  width: 100%;
+}
+
+#omniZendeskvideoBadge #videoBadgeBtn div:first-child {
+  width: 15%;
+  margin-right: 6px;
+}
+
+#assistBoxEmbedContainer {
+  overflow: hidden;
+}
+
+#omniVideoChatButton #omniZendeskvideoButton {
+  display: none;
+  position: fixed;
+  right: -10px;
+  z-index: 105;
+}
+
+#omniVideoChatButton #omniZendeskvideoButton img {
+  width: 100%;
+}
+/*# sourceMappingURL=main.css.map */
