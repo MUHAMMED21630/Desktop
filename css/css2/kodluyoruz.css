@@ -1,9 +1,175 @@
-/************* layout****************/
+/********* layout**********/
+body{
+   margin: 0;
+   padding: 0;
+}
+
+.Gradient{
+   background:linear-gradient(90deg,rgba(45,156,219,.6),rgba(155,81,224,.6));
+   
+}
+.btn{
+   padding: 10px 20px;
+   border-radius: 25px;
+   color: white;
+   text-decoration: none;
+   box-shadow: -10px 41px 48px 69px rgba(217,12,232,0.74) inset;
+-webkit-box-shadow: -10px 41px 48px 69px rgba(217,12,232,0.74) inset;
+-moz-box-shadow: -10px 41px 48px 69px rgba(217,12,232,0.74) inset;
+}
+.container{
+   width: 1000px;
+   /* margin-right: auto;
+   margin-left: auto; */
+   margin:50px auto 0;
+}
+
+.left-bar{
+   width: 200px;
+   float: left;
+}
+.content{
+   width: 800px;
+   float: left;
+}
+.card{
+   width:20%;
+   float: left;
+   padding: 5%;
+   background-color:rgb(209, 209, 209);
+   margin-right: 3%;
+   border-radius: 10px;
+}
+
+.clear{
+   clear: both;
+}
+
+.box{
+   width: 300px;
+   height: 300px;
+   padding: 10px;
+   /* margin: 10px; */
+   /* margin-top: 10px; */
+   /* margin-bottom: 10px; */
+   /* margin-left: 10px; */
+   margin-right: 10px;
+ float: left;  
+}
+.bg-red{
+   background-color: red;
+}
+
+.bg-green{
+background-color: green;
+}
+
+.bg-yellow{
+   border-color: yellow
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* width-->yazının bulunduğu kutunun genişliğini belirler örn 300px
+heigth-->yazının bulunduğu kutunun uzunluğunu belirler örn 300px 
+peding-->yazının bulunduğu kutunun içeriğini ferahlatmak ayırmak örn 10px
+margin-->yazının bulunduğu kutunun içeriğinin birbirinden ayırmak sıkışıklığı gidermek iki kutu arasında boşluk oluşturmak örn 10px
+not: sadece margin 10px dersem hem yandan hemde altan 10px değişir
+ama margin-top dersem sadece yukarıdan 10px değişir
+   
+margin --> hepsini aynı anda yapar
+margin-top: 10px; -->dersem sadece yukarıdan 10px değişir
+margin-bottom: 10px;
+margin-left: 10px; -->kutuyu sağa doğru gitmesi için
+margin-right: 10px; -->kutuyu sola doğru gitmesi için
+float-->yazının bulunduğu kutunun dizilim şekilini değiştiren alt alta değilde float:right[sağda]veya float:left[solda] olmasını istediğimiz zaman kulanırız
+
+.CLEAR{
+ both} -->kutunun solunu ve sağını temizlemek için kullanılır
+*/
+
+/* .card{
+   width:33%;
+   float: left;
+} yazıları,yazı guruplarını veya yazının içinde bulunduğu kutuyu yan yana dizmek*/
+/* border-radius: 10px;-->yAzının bulunduğu kutuyuyu yuvarlak veya farklı çekil vermek için kulanılır */
 
 /* class -> .text-red {} */
 /* id -> #id-bilgisi {} */
 
+/* ul>li:first-child{
+   color: green;
+li nin ilk baş satırdaki cümlesinin rengini{color}veya boyutunu{font-size} nı değiştire bilir         
+}
+ul >li:last-child{
+   color: aqua;
+li nin son baş satırdaki cümlesinin rengini{color}veya boyutunu{font-size} nı değiştire bilir
 
+}
+li:nth-child(2)
+{color: cornflowerblue;} istediğimiz her hangi bir li belirleyeyerek renk[color]veya    boyutunu[font-size] değişttire biliriz 
+not:eğer sadece 1 taneye koyacaksanız (1),(2),(3)kullana bilirsiniz
+eğer sadece tek sayılı li lerin yani 1,3,5 renk(color)ve boyutunu(font-size) değiştirmek istediğiiniz yani li:nth-child(odd)
+eğer çift sayılı li lerin yani 2,4,6 renk(color) ve boytunu (font-size) değiştirmek istiyorsanız li:nth-child(even) kulanmalısınız
+
+eğer yapınızın diyelim li(1) nizin tamamının rengini değiştirmek isttiyorsanız i:nth-child(even)
+!{background-color: cornflowerblue;}! color yerine background-coolor yazın ve bir renk seçin  
+
+li:nth-child(3n){
+   color: blueviolet;
+} bu 3,6.....yani 3ün katları olarak ilerler eğer 3 ve katları li yapınızı değiştitirmek isterseniz bunu kullana bilirsiniz
+
+li:nth-child(2n){
+   color: blueviolet;
+} buda 2,4,6 olarak değiştiriyor
+
+li:nth-child(2n-1){
+   color: blueviolet;
+} buda 1,3,5 olarak değiştiriyor
+
+li:nth-child(3n+1){
+   color: blueviolet;
+
+   buda 1,3,7 olarak değiştiriyor
+
+   li:nth-child(1n){
+   color: blueviolet;
+} buda tüm li yapsını içine alıyor 
+
+not bunların yerine(even),(odd) kullana bilirsiniz daha rahat ve kolay
+*/
+
+ /* ul>li:first-child{
+   color: green;
+
+}
+ul >li:last-child{
+   color: aqua;
+} */
+/* li:nth-child(odd)
+{color: red;}
+
+li:nth-child(even)
+{color: blue;} */
+
+/* li:nth-child(1n){
+   color: blueviolet;
+}
+
+.color-blue.fw-normal{
+    color: blue;
+   font-weight: normal;
+}
 
 h1, h2, h3, h4, h5, h6  {
     font-size: 30px; color: #2c2c2c;
@@ -32,4 +198,4 @@ h1, h2, h3, h4, h5, h6  {
 
  .fs-30{
     font-size: 30px;
- }
+ } */
