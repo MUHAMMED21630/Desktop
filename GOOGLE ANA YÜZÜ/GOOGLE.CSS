@@ -34,8 +34,12 @@ body {
     color: white;
     border: none;
     cursor: pointer;
+ padding-left: 23%;
 }
 
 .search-button:hover {
     background-color: #357ae8;
+    
+
 }
+
