@@ -5,21 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GOOGLE</title>
 </head>
+<body>    
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
     <div class="container">
-        <div class="logo">
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" class="logo">
+        <form action="https://www.google.com/search" method="get" class="search-form">
+            <input type="text" name="q" class="search-input" placeholder="Google'da Ara">
+            <button type="submit" class="search-button">Ara</button>
+            <button id="micButton" class="mic-icon">🎤</button>
+            <p id="result"></p>
+        </form>
+        <div class="contaions">
+            <button>hoş geldiniz</button>
+            <button>dünya manşetleri
+            </button>
         </div>
-        <div class="search-bar">
-            <input type="text" placeholder="Google'da Ara">
-        </div>
-        <div class="buttons">
-            <button>Google'da Ara</button>
-            <button>Kendimi Şanslı Hissediyorum</button>
-        </div>    <div class="container">
-        <div class="logo">
-
-         
     </div>
 </body>
 </html>
