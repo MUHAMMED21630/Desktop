@@ -1,0 +1,8 @@
+eğer ehliyetin ve araban varsa:   and
+    araba kullana bilirsin
+
+    eğer ehliyetin veya araban varsa:   or
+      araba kullanmana çok az kaldı
+
+      eğer hiç biri yoksa:
+       araba kullanmana Daha çok zaman var
