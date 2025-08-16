@@ -14,7 +14,7 @@
 # print(x>y) # > büyük mü
 # print(x<y) # < küçük mü
 # print(x>=y) # >= büyük eşit mi
-# print(x<=y) # <#= küçük eşit mi
+# print(x<=y) # <= küçük eşit mi
 
 # x=14
 # y=12

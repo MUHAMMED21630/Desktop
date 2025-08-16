@@ -1,0 +1,8 @@
+eğer sıcaklık 30 dan büyükse:
+    hava çok sıcak
+
+    eğer sıcaklık 0 dan küçükse:
+       hava çok soğuk
+
+         bunlrın hiç biri değilse:
+             hava çok güzel
