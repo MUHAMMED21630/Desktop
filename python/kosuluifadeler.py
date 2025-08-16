@@ -26,4 +26,3 @@ else:
    print("normal bir şekilde dışarı çık")
 
 # peki bunların hiç biri değilse yani yağmurlu veya güneşli false olursa ne yapmalıyım işte tamda burda else deveye giriyor yani şöyle sistem kontrol edecek if e eğer doğruysa(true) duracak ama eğer yanlışsa(false) 2 incisine geçecek o true ise duracak ama oda false ise işte o zaman da 3 üncü yani son basamak kontrol edilecek else nin çalışması için her iki değişkeninde false olması lazım.
-# not else tek yazılır ve iki nokta eklenir. 
